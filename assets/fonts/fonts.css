@@ -1,0 +1,553 @@
+/* NEUE HAAS UNICA */
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Black"), local("NeueHaasUnica-Black"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Black.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Black.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Black.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Black.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Black.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Black.woff2) format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Black Italic"), local("NeueHaasUnica-BlackItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-BlackItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-BlackItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-BlackItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-BlackItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-BlackItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-BlackItalic.woff2) format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Bold"), local("NeueHaasUnica-Bold"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Bold.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Bold.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Bold.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Bold.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Bold.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Bold Italic"), local("NeueHaasUnica-BoldItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-BoldItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-BoldItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-BoldItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-BoldItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-BoldItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-BoldItalic.woff2) format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica ExtraBlack"), local("NeueHaasUnica-ExtraBlack"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-ExtraBlack.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-ExtraBlack.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-ExtraBlack.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-ExtraBlack.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-ExtraBlack.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-ExtraBlack.woff2) format("woff2");
+  font-weight: 950;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica ExtraBlack Italic"), local("NeueHaasUnica-ExtraBlackItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-ExtraBlackItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-ExtraBlackItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-ExtraBlackItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-ExtraBlackItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-ExtraBlackItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-ExtraBlackItalic.woff2) format("woff2");
+  font-weight: 950;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Heavy"), local("NeueHaasUnica-Heavy"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Heavy.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Heavy.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Heavy.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Heavy.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Heavy.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Heavy.woff2) format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Heavy Italic"), local("NeueHaasUnica-HeavyItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-HeavyItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-HeavyItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-HeavyItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-HeavyItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-HeavyItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-HeavyItalic.woff2) format("woff2");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Italic"), local("NeueHaasUnica-Italic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Italic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Italic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Italic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Italic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Italic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Italic.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Light"), local("NeueHaasUnica-Light"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Light.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Light.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Light.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Light.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Light.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Light.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Light Italic"), local("NeueHaasUnica-LightItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-LightItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-LightItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-LightItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-LightItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-LightItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-LightItalic.woff2) format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Medium"), local("NeueHaasUnica-Medium"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Medium.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Medium.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Medium.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Medium.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Medium.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Medium Italic"), local("NeueHaasUnica-MediumItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-MediumItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-MediumItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-MediumItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-MediumItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-MediumItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-MediumItalic.woff2) format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Regular"), local("NeueHaasUnica-Regular"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Regular.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Regular.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Regular.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Regular.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Regular.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Thin"), local("NeueHaasUnica-Thin"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-Thin.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-Thin.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-Thin.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-Thin.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-Thin.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-Thin.woff2) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica Thin Italic"), local("NeueHaasUnica-ThinItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-ThinItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-ThinItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-ThinItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-ThinItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-ThinItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-ThinItalic.woff2) format("woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica UltraLight"), local("NeueHaasUnica-UltraLight"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-UltraLight.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-UltraLight.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-UltraLight.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-UltraLight.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-UltraLight.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-UltraLight.woff2) format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: local("Neue Haas Unica UltraLight Italic"), local("NeueHaasUnica-UltraLightItalic"),
+  url(NeueHaasUnica/embedded-opentype/NeueHaasUnica-UltraLightItalic.eot) format("embedded-opentype"),
+  url(NeueHaasUnica/opentype/NeueHaasUnica-UltraLightItalic.otf) format("opentype"),
+  url(NeueHaasUnica/svg/NeueHaasUnica-UltraLightItalic.svg) format("svg"),
+  url(NeueHaasUnica/truetype/NeueHaasUnica-UltraLightItalic.ttf) format("truetype"),
+  url(NeueHaasUnica/woff/NeueHaasUnica-UltraLightItalic.woff) format("woff"),
+  url(NeueHaasUnica/woff2/NeueHaasUnica-UltraLightItalic.woff2) format("woff2");
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+/* NOE DISPLAY */
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Black"), local("NoeDisplay-Black"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-Black.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-Black.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-Black.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-Black.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-Black.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-Black.woff2) format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Black Italic"), local("NoeDisplay-BlackItalic"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-BlackItalic.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-BlackItalic.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-BlackItalic.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-BlackItalic.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-BlackItalic.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-BlackItalic.woff2) format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Bold"), local("NoeDisplay-Bold"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-Bold.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-Bold.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-Bold.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-Bold.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-Bold.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Bold Italic"), local("NoeDisplay-BoldItalic"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-BoldItalic.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-BoldItalic.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-BoldItalic.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-BoldItalic.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-BoldItalic.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-BoldItalic.woff2) format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Medium"), local("NoeDisplay-Medium"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-Medium.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-Medium.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-Medium.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-Medium.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-Medium.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Medium Italic"), local("NoeDisplay-MediumItalic"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-MediumItalic.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-MediumItalic.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-MediumItalic.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-MediumItalic.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-MediumItalic.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-MediumItalic.woff2) format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Regular"), local("NoeDisplay-Regular"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-Regular.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-Regular.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-Regular.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-Regular.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-Regular.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noe Display";
+  src: local("Noe Display Regular Italic"), local("NoeDisplay-RegularItalic"),
+  url(NoeDisplay/embedded-opentype/NoeDisplay-RegularItalic.eot) format("embedded-opentype"),
+  url(NoeDisplay/opentype/NoeDisplay-RegularItalic.otf) format("opentype"),
+  url(NoeDisplay/svg/NoeDisplay-RegularItalic.svg) format("svg"),
+  url(NoeDisplay/truetype/NoeDisplay-RegularItalic.ttf) format("truetype"),
+  url(NoeDisplay/woff/NoeDisplay-RegularItalic.woff) format("woff"),
+  url(NoeDisplay/woff2/NoeDisplay-RegularItalic.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* PROXIMA NOVA */
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"),
+  url(ProximaNova/embedded-opentype/ProximaNova-Black.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-Black.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-Black.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-Black.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-Black.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-Black.woff2) format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-BlackItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-BlackItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-BlackItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-BlackItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-BlackItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-BlackItalic.woff2) format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"),
+  url(ProximaNova/embedded-opentype/ProximaNova-Bold.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-Bold.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-Bold.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-Bold.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-Bold.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-BoldItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-BoldItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-BoldItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-BoldItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-BoldItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-BoldItalic.woff2) format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova ExtraBold"), local("ProximaNova-ExtraBold"),
+  url(ProximaNova/embedded-opentype/ProximaNova-ExtraBold.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-ExtraBold.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-ExtraBold.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-ExtraBold.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-ExtraBold.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-ExtraBold.woff2) format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova ExtraBold Italic"), local("ProximaNova-ExtraBoldItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-ExtraBoldItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-ExtraBoldItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-ExtraBoldItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-ExtraBoldItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-ExtraBoldItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-ExtraBoldItalic.woff2) format("woff2");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Light"), local("ProximaNova-Light"),
+  url(ProximaNova/embedded-opentype/ProximaNova-Light.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-Light.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-Light.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-Light.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-Light.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-Light.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-LightItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-LightItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-LightItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-LightItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-LightItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-LightItalic.woff2) format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Medium"), local("ProximaNova-Medium"),
+  url(ProximaNova/embedded-opentype/ProximaNova-Medium.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-Medium.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-Medium.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-Medium.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-Medium.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Medium Italic"), local("ProximaNova-MediumItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-MediumItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-MediumItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-MediumItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-MediumItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-MediumItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-MediumItalic.woff2) format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"),
+  url(ProximaNova/embedded-opentype/ProximaNova-Regular.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-Regular.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-Regular.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-Regular.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-Regular.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-RegularItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-RegularItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-RegularItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-RegularItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-RegularItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-RegularItalic.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova SemiBold"), local("ProximaNova-SemiBold"),
+  url(ProximaNova/embedded-opentype/ProximaNova-SemiBold.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-SemiBold.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-SemiBold.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-SemiBold.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-SemiBold.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova SemiBold Italic"), local("ProximaNova-SemiBoldItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-SemiBoldItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-SemiBoldItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-SemiBoldItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-SemiBoldItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-SemiBoldItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-SemiBoldItalic.woff2) format("woff2");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Thin"), local("ProximaNova-Thin"),
+  url(ProximaNova/embedded-opentype/ProximaNova-Thin.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-Thin.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-Thin.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-Thin.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-Thin.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-Thin.woff2) format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinItalic"),
+  url(ProximaNova/embedded-opentype/ProximaNova-ThinItalic.eot) format("embedded-opentype"),
+  url(ProximaNova/opentype/ProximaNova-ThinItalic.otf) format("opentype"),
+  url(ProximaNova/svg/ProximaNova-ThinItalic.svg) format("svg"),
+  url(ProximaNova/truetype/ProximaNova-ThinItalic.ttf) format("truetype"),
+  url(ProximaNova/woff/ProximaNova-ThinItalic.woff) format("woff"),
+  url(ProximaNova/woff2/ProximaNova-ThinItalic.woff2) format("woff2");
+  font-weight: 100;
+  font-style: italic;
+}
